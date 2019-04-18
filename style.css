@@ -41,7 +41,7 @@ h2{
   text-align:center;
 }
 
-#cvs{
+canvas{
   position: absolute;
   top:0;
   bottom: 0;
@@ -127,5 +127,14 @@ canvas {
   }
   to {
     background: blue
+  }
+}
+
+@keyframes shake {
+  25%  { 
+    left: -30px
+  }
+  75% {
+    left: 30px
   }
 }

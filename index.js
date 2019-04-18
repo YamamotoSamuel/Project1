@@ -135,6 +135,9 @@ function loop() {
         if(score === 10){
           document.getElementById("cvs").style.animation = 'flash 1s linear infinite'
         }
+        if(score === 20){
+          document.getElementById("cvs").style.animation = 'shake .25s linear infinite'
+        }        
         if(score === 30){
           document.getElementById("cvs").style.animation = 'spin 60s linear infinite'
         }
