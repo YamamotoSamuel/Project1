@@ -39,7 +39,7 @@ setInterval(()=>{
   } 
   console.log(obs)
   arrayObstacles.push(obs)
-},1000)
+},750)
 
 let seconds = 9;
 let timer = setInterval(function(){

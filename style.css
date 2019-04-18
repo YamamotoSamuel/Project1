@@ -4,11 +4,9 @@ html, body {
 }
 body {
   background-image:url(./green-grass.jpg);
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   overflow-y: hidden;
-  /*margin-left: 20vw;*/
   color: #ff1a1a;
 }
 canvas {
@@ -69,15 +67,11 @@ canvas{
   justify-content: center;
   align-items: center;
 }
-/*.gameOverGrid {
-  margin: auto;
-}*/
+
 h1{
   margin-top: 5px;
     font-size: 65px;
     font-family: cursive;
-    /* display: flex; */
-    /* justify-content: center; */
     background-color: black;
     width: 702px;
     text-align: center;
@@ -88,28 +82,16 @@ h3{
   font-size: 20px;
 }
 h4{
-  /*font-family: cursive;*/
   font-size: 18px;
 }
-/*#title{
-  width:700px;
-}*/
+
 #points{
-  /* padding-right:425px;
-  padding-top: 575px;
-  text-align:right; */
   position: relative;
-  /*top: 565px;*/
   top: 25px;
   bottom:10px;
   left: 1191px;
   width: 4vw;
   background-color: black;
-}
-
-
-canvas {
-  /*animation: spin 60s linear infinite;*/
 }
 
 @keyframes spin {
