@@ -1,0 +1,131 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-image:url(./green-grass.jpg);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  /*margin-left: 20vw;*/
+  color: #ff1a1a;
+}
+canvas {
+  background: lawngreen;
+  border: 1px solid white;
+  float: left;
+}
+
+#timer {
+  color:red;
+  background:black;
+  font-size:40px;
+  position:absolute;
+  width: 5vw;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#objective{
+  font-family: cursive;
+  background-color: black;
+  width: 450px;
+  font-size: 150%;
+}
+h2{
+  text-align:center;
+}
+
+#cvs{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 25px;
+  text-align: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+/*.gameOverGrid {
+  margin: auto;
+}*/
+h1{
+  margin-top: 5px;
+    font-size: 65px;
+    font-family: cursive;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: black;
+    width: 702px;
+    text-align: center;
+    height: 1.7em;
+}
+h3{
+  font-family: cursive;
+  font-size: 20px;
+}
+h4{
+  /*font-family: cursive;*/
+  font-size: 18px;
+}
+/*#title{
+  width:700px;
+}*/
+#points{
+  /* padding-right:425px;
+  padding-top: 575px;
+  text-align:right; */
+  position: relative;
+  /*top: 565px;*/
+  top: 25px;
+  bottom:10px;
+  left: 1191px;
+  width: 4vw;
+  background-color: black;
+}
+
+
+canvas {
+  /*animation: spin 60s linear infinite;*/
+}
+
+@keyframes spin {
+  from  { 
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(180deg)
+  }
+}
+
+@keyframes flash {
+  from  { 
+    background: lawngreen
+  }
+  to {
+    background: blue
+  }
+}
